@@ -37,7 +37,7 @@
 
 <div on:paste={handlePaste}>
 	<div
-		class="h-screen flex flex-col justify-center content-center items-center dark:from-zinc-950 dark:to-zinc-950 dark:via-zinc-800 dark:bg-gradient-to-b"
+		class="h-screen flex flex-col justify-center content-center items-center bg-gradient-to-b from-zinc-200 via-zinc-100 to-zinc-200 dark:from-zinc-950 dark:to-zinc-950 dark:via-zinc-800 dark:bg-gradient-to-b"
 	>
 		<Header></Header>
 		<slot />
