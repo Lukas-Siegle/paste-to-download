@@ -19,9 +19,9 @@ const config = {
             entries: ['*', '/404'],  // Add /404 to prerender entries
             handleHttpError: 'warn'   // Optional: helps with prerender errors
         },
-        paths: {
-            base: ''  // For root deployment
-        }
+		paths: {
+			base: process.argv.includes('dev') ? '' : process.env.BASE_PATH
+		}
     }
 };
 
